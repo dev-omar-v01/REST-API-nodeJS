@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: rebeccapurple;
+}
+.main__div_class {
+  background-color: aquamarine;
+  height: 300px;
+  width: auto;
+}
