@@ -2,11 +2,20 @@
   padding: 0;
   margin: 0;
 }
-h1 {
-  color: rebeccapurple;
-}
+
 .main__div_class {
-  background-color: aquamarine;
-  height: 300px;
-  width: auto;
+  background-color: rgb(110, 145, 134);
+  margin: 10px 20px; /* Shorthand for margin properties */
+  height: 40px;
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Create space between items */
+  padding-left: 10px;
+}
+.main__div_class h2 {
+  margin: 0; /* Remove default margin for h2 */
+}
+
+.main__div_class button {
+  margin-right: 10px; /* Add margin to the button */
 }
